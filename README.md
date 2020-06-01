@@ -29,10 +29,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 ## 功能介绍
 
 <details>
-  <summary><mark><font color=darkred>
-   
-   ### 变量
-   </font></mark></summary>
+  <summary><mark><font color=darkred> 变量</font></mark></summary>
   <p>
    
 #### 全局变量（Global variables）
