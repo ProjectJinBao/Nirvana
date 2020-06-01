@@ -47,5 +47,46 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 ### 脚本
 <details>
   <summary>概念</summary>
-**脚本** 是一种灵活的，强大的辅助接口请求的方式，脚本分为：预定义脚本和自定义脚步。
+脚本是一种灵活的，强大的辅助接口请求的方式，脚本分为：预定义脚本和自定义脚步。
 </details>
+<details>
+  <summary>引用脚本</summary>
+引用脚本的方法：${get_message_center_token()}，通过此方式平台会去执行demo.py这个脚本。
+</details>
+
+
+### 响应断言
+
+##### *Nirvana 可以解析多层嵌套的json数据，从中抽取指定的信息，将“期望值”与“实际值”通过“匹配规则”进行比对，判断接口执行是否成功。*
+<details>
+  <summary>解析响应</summary>
+- 默认提供：  
+
+Key | 描述
+---|---
+content|响应体全部，json格式多级content.person.name.first_name
+status_code | 响应状态码
+elapsed| 响应时间days, seconds, microseconds, total_seconds
+headers|响应头headers.content-type
+cookies|cookies
+
+
+- 可通过jsonpath解析：
+
+
+JSONPath | 描述
+---|---
+$ | 根节点，用于表示一个json数据，可以是数组或对象
+@| 当前节点对象
+.or[]|取子节点
+..|不管位置，选择所有符合条件的条件
+*|匹配所有元素节点
+[]	|迭代器标示（可以在里边做简单的迭代操作，如数组下标，根据内容选值等）
+[,]|支持迭代器中做多选
+?()|支持过滤操作
+()|支持表达式计算
+
+- 支持正则表达式
+
+</details>
+ 
