@@ -27,7 +27,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 测试结果统计报告简洁清晰，附带详尽统计信息和日志记录。
 
 ## 功能介绍
-### 变量
+- ### 变量
 
 <details>
   <summary>全局变量</summary>
