@@ -48,7 +48,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 - ### 脚本
 <details>
   <summary>概念</summary>
- `脚本` 是一种灵活的，强大的辅助接口请求的方式，脚本分为：预定义脚本和自定义脚步。
+  脚本是一种灵活的，强大的辅助接口请求的方式，脚本分为：预定义脚本和自定义脚步。
 </details>
 <details>
   <summary>引用脚本</summary>
@@ -60,12 +60,13 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 ##### *Nirvana 可以解析多层嵌套的json数据，从中抽取指定的信息，将“期望值”与“实际值”通过“匹配规则”进行比对，判断接口执行是否成功。*
 <details>
   <summary>解析响应</summary>
+ <pre>
 - 默认提供：  
 
 |Key | 描述|  
 |-|-|  
 |content|响应体全部，json格式多级content.person.name.first_name|  
-
+</pre>
 </details>
 
  
