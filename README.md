@@ -42,8 +42,9 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 <details>
   <summary>引用变量</summary>
 通过特殊符号$引用变量，例如$Variables
-</details>  
+</details> 
 
+## 
 - ### 脚本
 <details>
   <summary>概念</summary>
@@ -53,9 +54,9 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
   <summary>引用脚本</summary>
 引用脚本的方法：${get_message_center_token()}，通过此方式平台会去执行demo.py这个脚本。
 </details>  
-## 
+
+##  
 - ### 响应断言
-## 
 ##### *Nirvana 可以解析多层嵌套的json数据，从中抽取指定的信息，将“期望值”与“实际值”通过“匹配规则”进行比对，判断接口执行是否成功。*
 <details>
   <summary>解析响应</summary>
