@@ -44,7 +44,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 通过特殊符号$引用变量，例如$Variables
 </details> 
 
-##  
+  
 - ### 脚本
 <details>
   <summary>概念</summary>
@@ -55,7 +55,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 引用脚本的方法：${get_message_center_token()}，通过此方式平台会去执行demo.py这个脚本。
 </details>  
 
-##  
+ 
 - ### 响应断言
 ##### *Nirvana 可以解析多层嵌套的json数据，从中抽取指定的信息，将“期望值”与“实际值”通过“匹配规则”进行比对，判断接口执行是否成功。*
 <details>
@@ -68,39 +68,4 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 
 </details>
 
-<details>
-  <summary>隐藏内容的标题</summary>
-
-隐藏文字隐藏文字隐藏文字。  
-支持 `markdown` 语法
-
-- 支持 **粗体**、*斜体*
-- 支持列表
-- 支持md插入图片语法：![1](hexo-pictures/hexo-6_1.png)
-- 支持html插入图片语法：<img src = "hexo-pictures/hexo-6_1.png" width = "50%">
-- 支持行内代码 `markdown`
-- 支持代码块
-  
-    ```cpp
-    #include <initializer_list>
-    #include <iostream>
-    struct A {
-        A() { std::cout << "1"; }
-        A(int) { std::cout << "2"; }
-        A(std::initializer_list<int>) { std::cout << "3"; }
-    };
-    int main(int argc, char *argv[]) {
-        A a1;
-        A a2{};
-        A a3{ 1 };
-        A a4{ 1, 2 };
-    }
-    ```// 此处加点文字，防止排版错误：因为这是代码块内的代码。使用时可删除
-
-- 支持表格
-
-    |文字|文字|
-    |-|-|
-    |文字|文字|
-
-</details>
+ 
