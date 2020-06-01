@@ -27,8 +27,14 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 测试结果统计报告简洁清晰，附带详尽统计信息和日志记录。
 
 ## 功能介绍
-### 变量
 
+<details>
+  <summary><mark><font color=darkred>
+   
+   ### 变量
+   </font></mark></summary>
+  <p>
+   
 #### 全局变量（Global variables）
 全部变量的作用域是在整个工作空间,作为系统默认的变量存在。
 
@@ -41,4 +47,6 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 ###### *环境 在实际测试中会有多套环境，包括测试环境、预生产环境、或者针对不同版本的环境，每个环境对应的一些变量如请求地址、用户信息和中间件地址等都不相同，为了避免每测试一个环境都要手动修改相关数据，引入环境概念。*
 
 #### 引用变量
-通过特殊符号$引用变量，例如$Variables
+通过特殊符号$引用变量，例如$Variables</p>
+
+</details>
