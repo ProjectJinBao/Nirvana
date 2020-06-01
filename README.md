@@ -1,5 +1,5 @@
 # Nirvana  涅槃，超脱一切烦恼的境界
-##### 通过UI界面与用户友好交互，提供统一的文档入口，根据接口文档自动生成测试用例，是集测试用例管理与接口自动化为一体的可视化智能平台！
+##### *通过UI界面与用户友好交互，提供统一的文档入口，根据接口文档自动生成测试用例，是集测试用例管理与接口自动化为一体的可视化智能平台！
 
 ## 背景
  
@@ -42,8 +42,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 <details>
   <summary>引用变量</summary>
 通过特殊符号$引用变量，例如$Variables
-</details> 
-
+</details>  
 
 - ### 脚本
 <details>
@@ -55,7 +54,6 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 引用脚本的方法：${get_message_center_token()}，通过此方式平台会去执行demo.py这个脚本。
 </details>  
 
-
 - ### 响应断言
 
 ##### *Nirvana 可以解析多层嵌套的json数据，从中抽取指定的信息，将“期望值”与“实际值”通过“匹配规则”进行比对，判断接口执行是否成功。*
@@ -66,28 +64,6 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 |Key | 描述|
 |-|-|
 |content|响应体全部，json格式多级content.person.name.first_name|
-status_code | 响应状态码
-elapsed| 响应时间days, seconds, microseconds, total_seconds
-headers|响应头headers.content-type
-cookies|cookies
-
-
-- 可通过jsonpath解析：
-
-
-JSONPath | 描述
----|---
-$ | 根节点，用于表示一个json数据，可以是数组或对象
-@| 当前节点对象
-.or[]|取子节点
-..|不管位置，选择所有符合条件的条件
-*|匹配所有元素节点
-[]	|迭代器标示（可以在里边做简单的迭代操作，如数组下标，根据内容选值等）
-[,]|支持迭代器中做多选
-?()|支持过滤操作
-()|支持表达式计算
-
-- 支持正则表达式
 
 </details>
  
