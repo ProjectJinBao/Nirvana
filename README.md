@@ -27,7 +27,7 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 测试结果统计报告简洁清晰，附带详尽统计信息和日志记录。
 
 ## 功能介绍
-- ### 变量
+### 变量
 
 <details>
   <summary>全局变量</summary>
@@ -35,17 +35,18 @@ OpenAPI Specification(OAS) 定义了一个标准的、语言无关的 RESTful AP
 </details>
 <details>
   <summary>环境变量</summary>
-环境变量（Environment variables）的作用域是用例执行时所选择的环境内，如果一个key即存在全局变量中，又存在环境变量中，优先使用环境变量的值。     
+环境变量（Environment variables）的作用域是用例执行时所选择的环境内，如果一个key即存在全局变量中，又存在环境变量中，优先使用环境变量的值。
+
    
 *环境，在实际测试中会有多套环境，包括测试环境、预生产环境、或者针对不同版本的环境，每个环境对应的一些变量如请求地址、用户信息和中间件地址等都不相同，为了避免每测试一个环境都要手动修改相关数据，引入环境概念。*
 </details>
 <details>
   <summary>引用变量</summary>
 通过特殊符号$引用变量，例如$Variables
-</details> \n\n
+</details> 
 
   
-- ### 脚本
+### 脚本
 <details>
   <summary>概念</summary>
   脚本是一种灵活的，强大的辅助接口请求的方式，脚本分为：预定义脚本和自定义脚步。
